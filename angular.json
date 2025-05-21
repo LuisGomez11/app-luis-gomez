@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -92,6 +93,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "luis-gomez-portfolio"
+    }
+  },
+  "defaultProject": "luis-gomez-portfolio",
+  "cli": {
+    "analytics": "c15a030a-900e-4271-bc43-de2c57d5a047"
+  }
 }
