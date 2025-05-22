@@ -1,0 +1,20 @@
+<div class="projects_container px-4 py-5">
+  <div class="container">
+    <span class="subtitle">Proyectos</span>
+    <div class="row mt-5">
+      <div class="col-12 col-lg-6 p-2" *ngFor="let p of projects">
+        <div class="project_individual_container">
+          <img src="{{p.img_project}}" alt="">
+          <div class="info_project">
+            <span class="title">
+              {{p.name}}
+              <a href="{{p.url_git_project}}" target="_blank"><i class="fab fa-github"></i></a>
+            </span>
+            <span class="description">{{p.description}}</span>
+            <span class="technologies">{{p.technologies}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
