@@ -1,0 +1,8 @@
+.body_container {
+  background-image: url("../assets/Back.svg");
+  background-attachment: fixed;
+  background-size: cover; /* Esto es clave */
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* Esto asegura que cubra al menos toda la altura de la ventana */
+}

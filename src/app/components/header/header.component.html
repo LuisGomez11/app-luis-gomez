@@ -1,13 +1,26 @@
-<div class="header">
+<div class="header px-4">
   <div class="container">
-      <div class="info_personal">
-        <span class="name d-block">LUIS ALBERTO GÓMEZ ARTEAGA</span>
-        <span class="position d-block mb-3">Ingeniero de Sistemas</span>
-        <div class="button_container mt-3">
-          <button class="btn liquid d-flex" (click)="seeCV()">
-            <i class="fa-solid fa-file"></i>
-            <span>Ver mi CV</span>
-          </button>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-4">
+          <div class="info_personal">
+            <span class="name">Luis Alberto Gómez Arteaga</span>
+            <span class="position">Ingeniero de Sistemas y
+              <span class="color_primary">Desarrollador Web</span>
+            </span>
+            <div class="button_container my-3">
+              <button class="btn liquid d-flex" (click)="seeCV()">
+                <i class="fa-solid fa-file"></i>
+                <span>Descargar CV</span>
+              </button>
+            </div>
+            <div class="social_container">
+              <a href="https://www.linkedin.com/in/luis-alberto-gomez-arteaga-481440194" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/LuisGomez11" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 img_column">
+          <img class="img_header" src="../../../assets/Foto_grado_cuadrada.jpg" alt="">
         </div>
       </div>
   </div>
