@@ -1,0 +1,19 @@
+.contact_container {
+  color: #FFF;
+  background-color: #0C152C;
+}
+
+.btn {
+  background-color: #39B9FF;
+}
+.contact_icons {
+  a {
+    transition: all .5s;
+    font-size: 30px;
+    color: #FFF;
+  }
+}
+
+.contact_icons a:hover {
+  color: #39B9FF; 
+}

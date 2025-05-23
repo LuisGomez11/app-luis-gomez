@@ -11,13 +11,53 @@
 }
 
 .img_header {
-  border-top-left-radius: 50px;
-  border-top-right-radius: 70px;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 150px;
   width: 350px;
-  padding: 10px;
-  border: #39B9FF 5px double;
+  height: 350px;
+  background: #0C243D;
+  position: relative;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+
+  img {
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    border-radius: 20px;
+    z-index: 1;
+    // border-top-left-radius: 50px;
+    // border-top-right-radius: 70px;
+    // border-bottom-right-radius: 50px;
+    // border-bottom-left-radius: 150px;
+  }
+}
+
+.img_header::before {
+  content: '';
+  position: absolute;
+  height: 150%;
+  width: 200px;
+  background-image: linear-gradient(180deg, #FFF, #39B9FF);
+  animation: rotar 3s linear infinite;
+  transition: all 0.2s linear;
+}
+
+.img_header::after{
+  content: '';
+  position: absolute;
+  inset: 10px;
+  background-color: #0C243D;
+  border-radius: 15px;
+}
+
+@keyframes rotar{
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .info_personal .name {

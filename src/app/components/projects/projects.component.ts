@@ -12,7 +12,7 @@ export class ProjectsComponent implements OnInit {
       name: "CRUD Producto - Factura",
       url_git_project: "https://github.com/LuisGomez11/Spring-Producto-Factura",
       img_project: "assets/projects/factura.png",
-      description: "Sistema de gestión de productos y facturas desarrollado con Java y Spring Boot, aplicando principios de arquitectura hexagonal. Expone una API RESTful con operaciones CRUD (POST, PUT, DELETE y GET), permitiendo una estructura modular y escalable.",
+      description: "API para gestión de productos y facturación desarrollada con Java y Spring Boot, siguiendo los principios de arquitectura hexagonal (puertos y adaptadores). La aplicación expone operaciones CRUD completas (POST, GET, PUT, DELETE) tanto para productos como para facturas, promoviendo una estructura modular, desacoplada y fácilmente escalable.",
       technologies: "Java - Spring Boot - MySQL"
     },
     {

@@ -16,9 +16,9 @@
 }
 
 .navbar {
-  padding: 10px;
+  padding: 10px 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   color: white;
 }
 
@@ -42,19 +42,10 @@
   }
 }
 
-.links_container a:hover, .social_container a:hover {
+.links_container a:hover {
   color: #39B9FF;
 }
 
-.social_container {
-  font-size: 20px;
-  display: flex;
-  gap: 15px;
-
-  a {
-    color: #FFF;
-  }
-}
 
 @media (max-width: 992px) {
   .links_container, .social_container {

@@ -16,6 +16,11 @@
   background-color: #0C152C;
   border-top: 3px solid #39B9FF;
   min-height: 300px;
+  transition: transform .6s;
+}
+
+.info_conteiner:hover{
+  transform: scale(1.1);
 }
 
 .title_info_perfil {
