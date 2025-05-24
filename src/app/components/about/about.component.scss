@@ -1,13 +1,6 @@
-
-// .img_personal {
-//   border: #FFF 1px solid;
-//   padding: 10px;
-//   width: 350px;
-//   border-top-left-radius: 32px;
-//   border-top-right-radius: 50px;
-//   border-bottom-right-radius: 32px;
-//   border-bottom-left-radius: 90px;
-// }
+.about_container{
+  padding-top: 80px;
+}
 
 .info_conteiner {
   padding: 25px 30px;
@@ -15,12 +8,12 @@
   color: #FFF;
   background-color: #0C152C;
   border-top: 3px solid #39B9FF;
-  min-height: 300px;
+  min-height: 380px;
   transition: transform .6s;
 }
 
 .info_conteiner:hover{
-  transform: scale(1.1);
+  // border: 3px solid #39B9FF;
 }
 
 .title_info_perfil {

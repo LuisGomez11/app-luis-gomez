@@ -1,41 +1,14 @@
-<div class="about_container px-4 py-5">
+<div class="about_container px-4">
   <div class="container mt-4">
     <span class="subtitle">Sobre Mí</span>
     <div class="row mt-5">
-      <div class="col-12 col-lg-4 col-md-6 mb-3">
+      <div class="col-12 col-lg-4 col-md-6 mb-3" *ngFor="let a of list_about">
         <div class="info_conteiner">
           <div class="title_info_perfil">
-            <i class="fa-solid fa-circle-user"></i>
-            <span>¿Quien Soy?</span>
+            <i class="{{a.icon}}"></i>
+            <span>{{a.title}}</span>
           </div>
-          <span>
-            Ingeniero de Sistemas egresado de la Fundación Universitaria Tecnológico Comfenalco de Cartagena, con sólida experiencia
-            en desarrollo de software y diseño de interfaces orientadas a la experiencia del usuario. Apasionado por crear
-            soluciones tecnológicas eficientes y funcionales, combinando buenas prácticas de programación con un enfoque centrado en
-            el usuario.
-          </span>
-        </div>
-      </div>
-      <div class="col-12 col-lg-4 col-md-6 mb-3">
-        <div class="info_conteiner">
-          <div class="title_info_perfil">
-            <i class="fa-solid fa-laptop-code"></i>
-            <span>Mi Perfil</span>
-          </div>
-          <span>
-            Desarrollador full-stack con experiencia en frontend utilizando JavaScript, TypeScript, Angular y conocimientos básicos en Vue.js. Especializado en desarrollo backend con Java y Spring Boot, enfocado en la construcción de APIs REST y microservicios aplicando principios SOLID y arquitectura hexagonal. Familiarizado con bases de datos relacionales como MySQL.
-          </span>
-        </div>
-      </div>
-      <div class="col-12 col-lg-4 col-md-6 mb-3">
-        <div class="info_conteiner">
-          <div class="title_info_perfil">
-            <i class="fa-solid fa-rocket"></i>
-            <span>Mi Objetivo</span>
-          </div>
-          <span>
-            Mi objetivo es seguir expandiendo mis conocimientos en nuevas tecnologías, fortalecer los que ya he adquirido y continuar ganando experiencia como desarrollador tanto en el backend como en el frontend.
-          </span>
+          <span>{{a.description}}</span>
         </div>
       </div>
     </div>

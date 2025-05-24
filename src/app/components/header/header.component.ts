@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   }
 
   seeCV() {
-    const url = 'assets/CV_Luis_Gomez.pdf';
+    const url = 'assets/CV_Luis_Gomez_2025.pdf';
     window.open(url, '_blank');
   }
 
