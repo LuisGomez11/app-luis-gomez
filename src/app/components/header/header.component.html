@@ -3,15 +3,25 @@
       <div class="row">
         <div class="col-12 col-lg-6 mb-4">
           <div class="info_personal">
-            <span class="name">Luis Alberto Gómez Arteaga</span>
-            <span class="position">{{ 'header.career' | translate }}
+            <p class="name">Luis Alberto Gómez Arteaga</p>
+            <p class="position">{{ 'header.career' | translate }}
               <span class="color_primary">{{ 'header.post' | translate }}</span>
-            </span>
-            <div class="button_container my-3">
-              <button class="btn liquid d-flex" (click)="seeCV()">
+            </p>
+            <p class="description">{{ 'header.description' | translate }}</p>
+            <div class="button_container my-3 d-flex align-items-center gap-3">
+              <button class="btn d-flex" (click)="seeCV()">
                 <i class="fa-solid fa-file"></i>
-                <span>{{ 'header.download' | translate }}</span>
+                <span>{{ 'header.cv' | translate }}</span>
               </button>
+              <a class="icon_link" href="https://www.linkedin.com/in/luis-alberto-gomez-arteaga-481440194" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a class="icon_link" href="https://github.com/LuisGomez11" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a class="available" href="https://www.linkedin.com/in/luis-alberto-gomez-arteaga-481440194" target="_blank">
+                {{ 'header.available' | translate }}
+              </a>
             </div>
           </div>
         </div>

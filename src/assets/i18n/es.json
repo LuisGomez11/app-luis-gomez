@@ -2,6 +2,7 @@
   "navbar": {
     "home": "Inicio",
     "about": "Sobre mí",
+    "experience": "Experiencia",
     "projects": "Proyectos",
     "skills": "Habilidades",
     "contact": "Contacto"
@@ -9,7 +10,23 @@
   "header":{
     "career": "Ingeniero de Sistemas y",
     "post": "Desarrollador Web",
-    "download": "Descargar CV"
+    "description": "Soluciones completas, de principio a fin.",
+    "cv": "Ver mi CV",
+    "available": "Disponible para trabajar"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "zabud":{
+      "position": "Desarrollador Full-Stack • ",
+      "company": "Zabud Technologies",
+      "date": "Dic 2019 - Oct 2024",
+      "description": {
+        "1": "Desarrollé y mantuve APIs RESTful utilizando Java con Spring Boot en diferentes entidades, aplicando arquitectura hexagonal, pruebas unitariascon JUnit y Mockito.",
+        "2": "Implementé interfaces de usuario modernas y responsivas utilizando frameworks como Angular y Vue.js, enfocadas en la experiencia del usuario y compatibilidad multiplataforma.",
+        "3": "Consumí servicios API REST en proyectos Angular e implementé validaciones de formularios reactivos.",
+        "4": "Colaboré en equipos ágiles siguiendo SCRUM; participé en reuniones diarias y revisiones de sprint."
+      }
+    }
   },
   "about":{
     "title": "Sobre Mí",
@@ -19,7 +36,7 @@
     },
     "perfil": {
       "title": "Mi Perfil",
-      "description": "Desarrollador Full-Stack con 5 años de experiencia en el desarrollo de aplicaciones web.<br><br>En el frontend, trabajo con JavaScript, TypeScript y Angular, y tengo conocimientos básicos en Vue.js. Diseño interfaces responsivas y accesibles.<br><br>En backend trabajo con Java y Spring Boot, enfocado en la construcción de APIs REST y microservicios, aplicando principios SOLID y arquitecturas como hexagonal y en capas. Con experiencia en bases de datos relacionales como MySQL."
+      "description": "Desarrollador Full-Stack con 5 años de experiencia en el desarrollo de aplicaciones web.<br><br>Especializado en frontend con JavaScript, TypeScript y Angular, con conocimientos básicos en Vue.js. Diseño interfaces responsivas y accesibles.<br><br>Experiencia en backend con Java y Spring Boot, enfocado en APIs REST y microservicios. Aplico principios SOLID y arquitecturas en capas y hexagonal. Manejo bases de datos relacionales como MySQL."
     },
     "objective": {
       "title": "Mi Objetivo",
@@ -30,8 +47,12 @@
     "title": "Proyectos",
     "items": [
       {
-        "name": "CRUD Producto - Factura",
-        "description": "API para gestión de productos y facturación desarrollada con Java y Spring Boot, siguiendo los principios de arquitectura hexagonal (puertos y adaptadores). La aplicación expone operaciones CRUD completas (POST, GET, PUT, DELETE) tanto para productos como para facturas, promoviendo una estructura modular, desacoplada y fácilmente escalable."
+        "name": "Aldea - Zabud",
+        "description": "Software de planificación estratégica empresarial diseñado para centralizar la definición, seguimiento y análisis de objetivos organizacionales. Responsable del desarrollo frontend con Angular, enfocado en la integración de APIs RESTful, arquitectura modular basada en componentes y diseño de interfaces centradas en la experiencia de usuario."
+      },
+      {
+        "name": "CRUD Producto y Factura",
+        "description": "API de gestión de productos y facturación desarrollada con Java y Spring Boot, basada en arquitectura hexagonal. Expone operaciones CRUD completas para productos y facturas, con una estructura modular, desacoplada y escalable."
       },
       {
         "name": "Página Web Personal",
@@ -39,7 +60,7 @@
       },
       {
         "name": "Agenda de Personas",
-        "description": "Aplicación desarrollada como parte de mi formación inicial como desarrollador Full Stack. Permite realizar operaciones CRUD (crear, listar, editar y eliminar) sobre un listado de personas. El backend está implementado con Spring Boot, mientras que el frontend fue desarrollado en Angular, utilizando la librería Bootstrap para asegurar un diseño responsivo y adaptable a distintos dispositivos."
+        "description": "Aplicación Full Stack desarrollada durante mi formación inicial. Implementa operaciones CRUD sobre un listado de personas, con backend en Spring Boot y frontend en Angular, utilizando Bootstrap para diseño responsivo."
       }
     ]
   },

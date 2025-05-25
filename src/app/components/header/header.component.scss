@@ -13,7 +13,7 @@
 .img_header {
   width: 350px;
   height: 350px;
-  background: #0C243D;
+  background: var(--turquoise-color);
   position: relative;
   display: flex;
   place-content: center;
@@ -34,7 +34,7 @@
   position: absolute;
   height: 150%;
   width: 200px;
-  background-image: linear-gradient(180deg, #FFF, #39B9FF);
+  background-image: linear-gradient(180deg, #FFF, var(--sky-blue-color));
   animation: rotar 3s linear infinite;
   transition: all 0.2s linear;
 }
@@ -43,7 +43,7 @@
   content: '';
   position: absolute;
   inset: 10px;
-  background-color: #0C243D;
+  background-color: var(--turquoise-color);
   border-radius: 15px;
 }
 
@@ -56,19 +56,27 @@
   }
 }
 
-.info_personal .name {
-  display: block;
-  color: #0783c5;
-  font-size: 22px;
-}
+.info_personal {
 
-.info_personal .position {
-  font-weight: bold;
-  font-size: 48px;
-
-  .color_primary {
-    color: #39B9FF;
+  .name {
+    color: var(--blue-color);
+    font-size: 22px;
   }
+
+  .position {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+  
+    .color_primary {
+      color: var(--sky-blue-color);
+    } 
+  }
+
+  .description {
+    font-size: 20px;
+  }
+  
 }
 
 .social_container{
@@ -81,32 +89,53 @@
   }
 }
 
-.btn {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: white;
-  border: 2px solid #FFF;
-  border-radius: 8px;
-  cursor: pointer;
-  overflow: hidden;
-  transition: all 0.3s ease;
+.button_container {
+  flex-wrap: wrap;
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: var(--blue-color);
 
-  &.liquid {
-    background: linear-gradient(#FFF 0 0) no-repeat calc(200% - var(--p, 0%))
-      100% / 200% var(--p, 0.2em);
-    transition: 0.3s var(--t, 0s),
-      background-position 0.3s calc(0.3s - var(--t, 0s));
+    &:hover {
+      background-color: var(--sky-blue-color);
+    }
   }
 
-  &.liquid:hover {
-    --p: 100%;
-    --t: 0.3s;
-    color: #0C243D;
+  .icon_link {
+    transition: all .5s;
+    font-size: 30px;
+    color: #FFF;
+
+    &:hover{
+      color: var(--sky-blue-color);
+    }
+  }
+
+  .available {
+    border: 2px solid rgb(137, 212, 137);
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: 14px;
+
+    &:hover {
+      background-color: rgba(137, 212, 137, .2);
+    }
   }
 }
+
+
 
 
 @media (max-width: 992px) {

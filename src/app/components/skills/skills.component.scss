@@ -4,7 +4,7 @@
 }
 
 .skills_individual_container {
-  background-color: #0C152C;
+  background-color: var(--turquoise-color);
   padding: 15px;
   color: #FFF;
   border-radius: 10px;
@@ -15,7 +15,7 @@
   transition: all 0.3s ease;
 
   img {
-    width: 55px;
+    width: 60px;
     height: 60px;
     object-fit: cover;
     margin-bottom: 10px;

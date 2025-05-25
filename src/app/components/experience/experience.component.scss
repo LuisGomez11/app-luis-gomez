@@ -1,0 +1,37 @@
+.experience_container {
+  padding-top: 80px;
+  // padding-bottom: 80px;
+}
+
+.experience_individual_container{
+  background-color: var(--turquoise-color);
+  color: #FFF;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  border-top: 3px solid var(--sky-blue-color);
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+
+    .company {
+      color: var(--sky-blue-color);
+    }
+  }
+
+  .date {
+    font-size: 15px;
+    color: #bdbdbd;
+  }
+}
+
+ul {
+  padding: 0;
+  padding-left: 17px;
+}
+
+
+@media (max-width: 760px) {
+  
+}

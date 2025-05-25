@@ -1,10 +1,14 @@
 .contact_container {
   color: #FFF;
-  background-color: #0C152C;
+  background-color: var(--turquoise-color);
 }
 
 .btn {
-  background-color: #39B9FF;
+  background-color: var(--blue-color);
+  transition: all .5s;
+  &:hover {
+    background-color: var(--sky-blue-color);
+  }
 }
 .contact_icons {
   a {
@@ -15,5 +19,5 @@
 }
 
 .contact_icons a:hover {
-  color: #39B9FF; 
+  color: var(--sky-blue-color);
 }

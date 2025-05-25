@@ -37,6 +37,10 @@ export class SkillsComponent implements OnInit {
       urlImage: "assets/skills/bootstrap.png"
     },
     {
+      name: "Angular Material",
+      urlImage: "assets/skills/material.png"
+    },
+    {
       name: "Java",
       urlImage: "assets/skills/java.png"
     },

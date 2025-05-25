@@ -1,23 +1,24 @@
 <nav class="navbar_container">
-  <div class="container"><div class="navbar">
-    <div class="name_title">
-      <span class="dev">Dev. </span><span>Luis Gómez</span>
-    </div>
-    <div class="links_container">
-      <a href="#home">{{ 'navbar.home' | translate }}</a>
-      <a href="#about">{{ 'navbar.about' | translate }}</a>
-      <a href="#projects">{{ 'navbar.projects' | translate }}</a>
-      <a href="#skills">{{ 'navbar.skills' | translate }}</a>
-      <a href="#contact">{{ 'navbar.contact' | translate }}</a>
-      <div class="language_container d-flex gap-2">
-        <button (click)="onChangeLanguage('es')">
-          <img src="../../../assets/spain.png" alt="bandera de españa">
-        </button>
-        <button (click)="onChangeLanguage('en')">
-          <img src="../../../assets/usa.png" alt="bandera de usa">
-        </button>
+  <div class="container">
+    <div class="navbar">
+      <div class="name_title">
+        <span class="dev">Dev. </span><span>Luis Gómez</span>
+      </div>
+      <div class="links_container">
+        <a href="#home">{{ 'navbar.home' | translate }}</a>
+        <a href="#experience">{{ 'navbar.experience' | translate }}</a>
+        <a href="#about">{{ 'navbar.about' | translate }}</a>
+        <a href="#skills">{{ 'navbar.skills' | translate }}</a>
+        <a class="contact_link" href="#contact">{{ 'navbar.contact' | translate }}</a>
+        <div class="language_container d-flex">
+          <button (click)="onChangeLanguage('es')">
+            <img src="../../../assets/spain.png" alt="bandera de españa">
+          </button>
+          <button (click)="onChangeLanguage('en')">
+            <img src="../../../assets/usa.png" alt="bandera de usa">
+          </button>
+        </div>
       </div>
     </div>
-  </div></div>
-  
+  </div>
 </nav>
