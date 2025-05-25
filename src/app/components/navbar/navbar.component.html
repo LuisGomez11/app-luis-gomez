@@ -4,11 +4,19 @@
       <span class="dev">Dev. </span><span>Luis Gómez</span>
     </div>
     <div class="links_container">
-      <a href="#home">Inicio</a>
-      <a href="#about">Sobre mí</a>
-      <a href="#skills">Habilidades</a>
-      <a href="#projects">Proyectos</a>
-      <a href="#contact">Contacto</a>
+      <a href="#home">{{ 'navbar.home' | translate }}</a>
+      <a href="#about">{{ 'navbar.about' | translate }}</a>
+      <a href="#projects">{{ 'navbar.projects' | translate }}</a>
+      <a href="#skills">{{ 'navbar.skills' | translate }}</a>
+      <a href="#contact">{{ 'navbar.contact' | translate }}</a>
+      <div class="language_container d-flex gap-2">
+        <button (click)="onChangeLanguage('es')">
+          <img src="../../../assets/spain.png" alt="bandera de españa">
+        </button>
+        <button (click)="onChangeLanguage('en')">
+          <img src="../../../assets/usa.png" alt="bandera de usa">
+        </button>
+      </div>
     </div>
   </div></div>
   

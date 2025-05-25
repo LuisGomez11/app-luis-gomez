@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "header":{
+    "career": "Ingeniero de Sistemas y",
+    "post": "Desarrollador Web",
+    "download": "Descargar CV"
+  },
+  "about":{
+    "title": "Sobre Mí",
+    "personal": {
+      "title": "¿Quien Soy?",
+      "description": "Soy Luis Alberto Gómez Arteaga, Ingeniero de Sistemas egresado de la Fundación Universitaria Tecnológico Comfenalco de Cartagena, Colombia.<br><br>Me apasiona desarrollar soluciones tecnológicas eficientes, aplicando buenas prácticas de programación y manteniendo siempre un enfoque centrado en el usuario."
+    },
+    "perfil": {
+      "title": "Mi Perfil",
+      "description": "Desarrollador Full-Stack con 5 años de experiencia en el desarrollo de aplicaciones web.<br><br>En el frontend, trabajo con JavaScript, TypeScript y Angular, y tengo conocimientos básicos en Vue.js. Diseño interfaces responsivas y accesibles.<br><br>En backend trabajo con Java y Spring Boot, enfocado en la construcción de APIs REST y microservicios, aplicando principios SOLID y arquitecturas como hexagonal y en capas. Con experiencia en bases de datos relacionales como MySQL."
+    },
+    "objective": {
+      "title": "Mi Objetivo",
+      "description": "Mi objetivo es seguir expandiendo mis conocimientos en nuevas tecnologías, fortalecer los que ya he adquirido y continuar ganando experiencia como desarrollador tanto en el backend como en el frontend."
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "items": [
+      {
+        "name": "CRUD Producto - Factura",
+        "description": "API para gestión de productos y facturación desarrollada con Java y Spring Boot, siguiendo los principios de arquitectura hexagonal (puertos y adaptadores). La aplicación expone operaciones CRUD completas (POST, GET, PUT, DELETE) tanto para productos como para facturas, promoviendo una estructura modular, desacoplada y fácilmente escalable."
+      },
+      {
+        "name": "Página Web Personal",
+        "description": "Página web responsiva diseñada para presentar mi perfil profesional, conocimientos en desarrollo web y experiencia con diversas tecnologías. Funciona como portafolio personal, destacando proyectos, habilidades y trayectoria como desarrollador Full Stack."
+      },
+      {
+        "name": "Agenda de Personas",
+        "description": "Aplicación desarrollada como parte de mi formación inicial como desarrollador Full Stack. Permite realizar operaciones CRUD (crear, listar, editar y eliminar) sobre un listado de personas. El backend está implementado con Spring Boot, mientras que el frontend fue desarrollado en Angular, utilizando la librería Bootstrap para asegurar un diseño responsivo y adaptable a distintos dispositivos."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades Técnicas"
+  },
+  "contact": {
+    "title": "Contacto",
+    "info": "Si te interesa mi perfil, puedes contactarme a través de los siguientes enlaces o enviarme un correo usando el formulario a continuación.",
+    "form": {
+      "name": {
+        "text": "Nombre",
+        "valid": "El nombre es requerido."
+      },
+      "email": {
+        "text": "Correo",
+        "valid": "El correo es requerido."
+      },
+      "subject": {
+        "text": "Asunto",
+        "valid": "El asunto es requerido."
+      },
+      "messagge": {
+        "text": "Mensaje",
+        "valid": "El mensaje es requerido."
+      }
+    }
+  }
+}

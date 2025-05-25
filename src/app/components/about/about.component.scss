@@ -3,17 +3,13 @@
 }
 
 .info_conteiner {
-  padding: 25px 30px;
+  padding: 30px 35px;
   border-radius: 20px;
   color: #FFF;
   background-color: #0C152C;
   border-top: 3px solid #39B9FF;
-  min-height: 380px;
+  min-height: 480px;
   transition: transform .6s;
-}
-
-.info_conteiner:hover{
-  // border: 3px solid #39B9FF;
 }
 
 .title_info_perfil {
@@ -23,11 +19,18 @@
   font-size: 20px;
   color: #39B9FF;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 992px) {
   .info_conteiner {
-    padding-inline: 20px;
+    padding-inline: 30px;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .info_conteiner {
+    min-height: auto;
   }
 }

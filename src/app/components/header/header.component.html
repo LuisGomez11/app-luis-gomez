@@ -1,16 +1,16 @@
-<div class="header px-4">
+<section class="header px-4">
   <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6 mb-4">
           <div class="info_personal">
             <span class="name">Luis Alberto Gómez Arteaga</span>
-            <span class="position">Ingeniero de Sistemas y
-              <span class="color_primary">Desarrollador Web</span>
+            <span class="position">{{ 'header.career' | translate }}
+              <span class="color_primary">{{ 'header.post' | translate }}</span>
             </span>
             <div class="button_container my-3">
               <button class="btn liquid d-flex" (click)="seeCV()">
                 <i class="fa-solid fa-file"></i>
-                <span>Descargar CV</span>
+                <span>{{ 'header.download' | translate }}</span>
               </button>
             </div>
           </div>
@@ -22,4 +22,4 @@
         </div>
       </div>
   </div>
-</div>
+</section>

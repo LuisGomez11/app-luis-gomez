@@ -33,6 +33,7 @@
 
 .links_container {
   display: flex;
+  align-items: center;
   gap: 40px;
 
   a {
@@ -46,9 +47,22 @@
   color: #39B9FF;
 }
 
+.language_container {
+
+  button {
+    background: none;
+    border: none;
+  }
+
+  img {
+    width: 25px;
+    height: 15px;
+    // object-fit: cover;
+  }
+}
 
 @media (max-width: 992px) {
-  .links_container, .social_container {
+  .links_container a {
     display: none;
   }
 }

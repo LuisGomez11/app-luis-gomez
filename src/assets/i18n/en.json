@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About me",
+    "projects": "Proyects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "header":{
+    "career": "Systems Engineer and",
+    "post": "Web Developer",
+    "download": "Download CV"
+  },
+  "about":{
+    "title": "About me",
+    "personal": {
+      "title": "Who am I?",
+      "description": "I am Luis Alberto Gómez Arteaga, a Systems Engineer graduated from Fundación Universitaria Tecnológico Comfenalco in Cartagena, Colombia.<br><br>I am passionate about developing efficient technological solutions, applying best programming practices, and always maintaining a user-centered approach."
+    },
+    "perfil": {
+      "title": "My Profile",
+      "description": "Full-Stack Developer with 5 years of experience in web application development.<br><br>On the frontend, I work with JavaScript, TypeScript, and Angular, and I have basic knowledge of Vue.js. I design responsive and accessible user interfaces.<br><br>On the backend, I work with Java and Spring Boot, focusing on building REST APIs and microservices, applying SOLID principles and architectures such as hexagonal and layered. I also have experience with relational databases like MySQL."
+    },
+    "objective": {
+      "title": "My Objective",
+      "description": "My objective is to continue expanding my knowledge of new technologies, strengthen the skills I have already acquired, and keep gaining experience as a developer in both backend and frontend."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "name": "Product - Invoice CRUD",
+        "description": "API for managing products and invoicing, developed with Java and Spring Boot following the principles of hexagonal architecture (ports and adapters). The application exposes full CRUD operations (POST, GET, PUT, DELETE) for both products and invoices, promoting a modular, decoupled, and easily scalable structure."
+      },
+      {
+        "name": "Personal Website",
+        "description": "Responsive website designed to showcase my professional profile, web development knowledge, and experience with various technologies. It serves as a personal portfolio, highlighting projects, skills, and my journey as a Full Stack developer."
+      },
+      {
+        "name": "People Agenda",
+        "description": "Application developed as part of my early training as a Full Stack developer. It allows CRUD operations (create, read, update and delete) on a list of people. The backend is implemented with Spring Boot, while the frontend was developed in Angular using the Bootstrap library to ensure a responsive design adaptable to different devices."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills"
+  },
+  "contact": {
+    "title": "Contact",
+    "info": "If you’re interested in my profile, you can contact me through the following links or send me an email using the form below.",
+    "form": {
+      "name": {
+        "text": "Name",
+        "valid": "Name is required."
+      },
+      "email": {
+        "text": "Email",
+        "valid": "Email is required."
+      },
+      "subject": {
+        "text": "Subject",
+        "valid": "Subject is required."
+      },
+      "messagge": {
+        "text": "Messagge",
+        "valid": "Messagge is required."
+      }
+    }
+  }
+}

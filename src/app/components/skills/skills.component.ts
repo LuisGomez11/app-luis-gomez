@@ -33,6 +33,10 @@ export class SkillsComponent implements OnInit {
       urlImage: "assets/skills/vue.png"
     },
     {
+      name: "Bootstrap",
+      urlImage: "assets/skills/bootstrap.png"
+    },
+    {
       name: "Java",
       urlImage: "assets/skills/java.png"
     },

@@ -1,5 +1,6 @@
 .skills_container {
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .skills_individual_container {
@@ -14,8 +15,9 @@
   transition: all 0.3s ease;
 
   img {
-    width: 40px;
-    height: 45px;
+    width: 55px;
+    height: 60px;
+    object-fit: cover;
     margin-bottom: 10px;
   }
 }

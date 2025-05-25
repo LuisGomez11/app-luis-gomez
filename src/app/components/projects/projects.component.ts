@@ -1,39 +1,74 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss']
 })
-export class ProjectsComponent implements OnInit {
+export class ProjectsComponent implements OnInit, OnDestroy {
 
-  projects = [
-    {
-      name: "CRUD Producto - Factura",
-      url_git_project: "https://github.com/LuisGomez11/Spring-Producto-Factura",
-      img_project: "assets/projects/factura.png",
-      description: "API para gestión de productos y facturación desarrollada con Java y Spring Boot, siguiendo los principios de arquitectura hexagonal (puertos y adaptadores). La aplicación expone operaciones CRUD completas (POST, GET, PUT, DELETE) tanto para productos como para facturas, promoviendo una estructura modular, desacoplada y fácilmente escalable.",
-      technologies: "Java - Spring Boot - MySQL"
-    },
-    {
-      name: "Página Web Personal",
-      url_git_project: "https://github.com/LuisGomez11/app-luis-gomez",
-      img_project: "assets/projects/app_luis_gomez.png",
-      description: "Página web responsiva diseñada para presentar mi perfil profesional, conocimientos en desarrollo web y experiencia con diversas tecnologías. Funciona como portafolio personal, destacando proyectos, habilidades y trayectoria como desarrollador Full Stack.",
-      technologies: "HTML - CSS - TypeScript - Angular - Bootstrap"
-    },
-    {
-      name: "Agenda de Personas",
-      url_git_project: "https://github.com/LuisGomez11/api-angular-spring",
-      img_project: "assets/projects/api_angular_spring.png",
-      description: "Aplicación desarrollada como parte de mi formación inicial como desarrollador Full Stack. Permite realizar operaciones CRUD (crear, listar, editar y eliminar) sobre un listado de personas. El backend está implementado con Spring Boot, mientras que el frontend fue desarrollado en Angular, utilizando la librería Bootstrap para asegurar un diseño responsivo y adaptable a distintos dispositivos.",
-      technologies: "Angular - Spring Boot - MySQL - TypeScript - Bootstrap"
-    }
-  ];
+  projects: any[] = [];
+  langChangeSub!: Subscription;
 
-  constructor() { }
+  constructor(private translate: TranslateService) {}
 
   ngOnInit(): void {
+    this.loadTranslations();
+    this.langChangeSub = this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.loadTranslations();
+    });
   }
 
+  loadTranslations(): void {
+    this.translate.get('projects.items').subscribe((translatedProjects) => {
+      this.projects = [
+        {
+          name: translatedProjects[0].name,
+          url_git_project: "https://github.com/LuisGomez11/Spring-Producto-Factura",
+          img_project: "assets/projects/factura.png",
+          description: translatedProjects[0].description,
+          technologies: [
+            { name: "Java", image: "assets/skills/java.png" },
+            { name: "Spring Boot", image: "assets/skills/spring.png" },
+            { name: "MySQL", image: "assets/skills/mysql.png" }
+          ]
+        },
+        {
+          name: translatedProjects[1].name,
+          url_git_project: "https://github.com/LuisGomez11/app-luis-gomez",
+          img_project: "assets/projects/app_luis_gomez.png",
+          description: translatedProjects[1].description,
+          technologies: [
+            { name: "HTML", image: "assets/skills/html.png" },
+            { name: "CSS", image: "assets/skills/css.png" },
+            { name: "TypeScript", image: "assets/skills/ts.png" },
+            { name: "Angular", image: "assets/skills/angular.png" },
+            { name: "Bootstrap", image: "assets/skills/bootstrap.png" }
+          ]
+        },
+        {
+          name: translatedProjects[2].name,
+          url_git_project: "https://github.com/LuisGomez11/api-angular-spring",
+          img_project: "assets/projects/api_angular_spring.png",
+          description: translatedProjects[2].description,
+          technologies: [
+            { name: "Angular", image: "assets/skills/angular.png" },
+            { name: "TypeScript", image: "assets/skills/ts.png" },
+            { name: "Bootstrap", image: "assets/skills/bootstrap.png" },
+            { name: "Java", image: "assets/skills/java.png" },
+            { name: "Spring Boot", image: "assets/skills/spring.png" },
+            { name: "MySQL", image: "assets/skills/mysql.png" }
+          ]
+        }
+      ];
+    });
+  }
+
+  ngOnDestroy(): void {
+    if (this.langChangeSub) {
+      this.langChangeSub.unsubscribe();
+    }
+  }
 }

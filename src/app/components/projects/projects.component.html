@@ -1,20 +1,28 @@
-<div class="projects_container px-4">
+<section class="projects_container px-4">
   <div class="container">
-    <span class="subtitle">Proyectos</span>
+    <span class="subtitle">{{ 'projects.title' | translate }}</span>
     <div class="row mt-5">
       <div class="col-12 col-lg-6 p-2" *ngFor="let p of projects">
-        <div class="project_individual_container">
-          <img src="{{p.img_project}}" alt="">
+        <article class="project_individual_container">
+          <img class="img_project" src="{{p.img_project}}" alt="">
           <div class="info_project">
             <span class="title">
               {{p.name}}
               <a href="{{p.url_git_project}}" target="_blank"><i class="fab fa-github"></i></a>
             </span>
-            <span class="description">{{p.description}}</span>
-            <span class="technologies">{{p.technologies}}</span>
+            <span class="description mb-3">{{p.description}}</span>
+            <footer>
+              <div class="technologies_container d-flex gap-3">
+                <div class="technologies" *ngFor="let t of p.technologies">
+                  <img class="icon_image" src="{{t.image}}" alt="{{t.name}}">
+                  <span>{{t.name}}</span>
+                </div>
+              </div>
+            </footer>
+            <!-- <span class="technologies">{{p.technologies}}</span> -->
           </div>
-        </div>
+        </article>
       </div>
     </div>
   </div>
-</div>
+</section>

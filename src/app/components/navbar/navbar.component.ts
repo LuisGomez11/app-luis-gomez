@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { LanguageService } from 'src/app/service/language.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,16 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  currentLanguage: string;
+
+  constructor(private languageService: LanguageService) {
+    this.currentLanguage = this.languageService.getLanguage();
+  }
 
   ngOnInit(): void {
-    // window.addEventListener('scroll', () => {
-    //   if (window.scrollY > 0) {
-    //     document.querySelector('.navbar_container').classList.add('scrolled');
-    //   } else {
-    //     document.querySelector('.navbar_container').classList.remove('scrolled');
-    //   }
-    // });
+    
+  }
+
+  onChangeLanguage(language: string) {
+    console.log(language);
+    this.languageService.changeLanguage(language);
+    this.currentLanguage = language;
   }
 
 }

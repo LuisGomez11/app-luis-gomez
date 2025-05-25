@@ -1,29 +1,34 @@
 .projects_container {
   padding-top: 80px;
-  padding-bottom: 80px;
 }
 
 .project_individual_container{
   border-radius: 10px;
   overflow: hidden;
   background-color: #0C152C;
-  min-height: 470px;
-  padding: 5px;
+  min-height: 550px;
+  border: 2px solid #0C152C;
   
-  img {
+  .img_project {
     width: 100%;
     height: 250px;
     mask-image: linear-gradient(black 80%, transparent);
     border-radius: 10px;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   .info_project {
-    padding: 20px;
+    padding: 20px 30px;
     color: #FFF;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
+    height: 100%;
 
     .title {
       font-size: 22px;
@@ -37,11 +42,34 @@
     }
 
     .description {
-      font-size: 14px;
+      font-size: 16px;
     }
 
-    .technologies {
-      color: #39B9FF;
+    .technologies_container {
+
+      flex-wrap: wrap;
+
+      .technologies {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid #39B9FF;
+        color: #39B9FF;
+        padding: 5px 10px;
+        border-radius: 10px;
+        transition: all .5s;
+
+        .icon_image {
+          width: 20px;
+          height: 20px;
+          object-fit: cover;
+        }
+
+        &:hover {
+          background-color: #FFF;
+          color: #0C152C;
+        }
+      }
     }
   }
 }
