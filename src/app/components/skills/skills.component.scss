@@ -13,16 +13,21 @@
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  cursor: default;
 
   img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
     margin-bottom: 10px;
+    filter: grayscale(100%);
+    transition: all -5s;
   }
 }
 
 .skills_individual_container:hover {
   transform: translateY(-7px);
-  cursor: pointer;
+  img {
+    filter: grayscale(0);
+  }
 }

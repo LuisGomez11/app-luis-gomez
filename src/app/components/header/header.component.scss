@@ -71,11 +71,12 @@
     .color_primary {
       font-size: 48px;
       font-weight: bold;
-      background: linear-gradient(270deg,var(--sky-blue-color),#3372d6,#527aff);
-      background-size: 1400% 1400%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: gradientMove 4s ease infinite;
+      color: var(--sky-blue-color);
+      // background: linear-gradient(270deg,var(--sky-blue-color),#3372d6,#527aff);
+      // background-size: 1400% 1400%;
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+      // animation: gradientMove 4s ease infinite;
     }
   }
 
