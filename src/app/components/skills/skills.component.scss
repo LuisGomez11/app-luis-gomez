@@ -31,3 +31,11 @@
     filter: grayscale(0);
   }
 }
+
+@media (max-width: 992px) {
+  .skills_individual_container {
+    img {
+      filter: grayscale(0);
+    }
+  }
+}

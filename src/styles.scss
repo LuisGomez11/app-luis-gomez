@@ -18,10 +18,15 @@ body {
 :root {
   --blue-button-color:#0a94de5d;
   --blue-color: #0783c5;
-  --sky-blue-color: #39B9FF;
+  --sky-blue-color: #5bc5ff;
   --green-color: #176318;
   --bg-card-color: #030c1694;
-  --bg-card-transparent-color: #030c163b;
+  --bg-button-color: #1142795e;
+  --bg-card-transparent-color: #030c165d;
+}
+
+.text-color-blue {
+  color: #bde7fd;
 }
 
 @media (max-width: 760px) {

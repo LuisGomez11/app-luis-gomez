@@ -14,7 +14,7 @@
   "header":{
     "career": "Ingeniero de Sistemas y",
     "post": "Desarrollador Web",
-    "description": "+4 años de experiencia. Soluciones completas, de principio a fin.",
+    "description": "+4 años de experiencia. <span class='text-color-blue'>Ingeniero de Sistemas y Desarrollador Web</span> de Cartagena, Colombia. Especializado en la experiencia de usuario.",
     "cv": "Ver mi CV",
     "available": "Disponible para trabajar"
   },
@@ -26,7 +26,7 @@
       "date": "Dic 2019 - Oct 2024",
       "description": {
         "1": "Desarrollé y mantuve APIs RESTful utilizando Java con Spring Boot en diferentes entidades, aplicando arquitectura hexagonal, pruebas unitariascon JUnit y Mockito.",
-        "2": "Implementé interfaces de usuario modernas y responsivas utilizando frameworks como Angular y Vue.js, enfocadas en la experiencia del usuario y compatibilidad multiplataforma.",
+        "2": "Implementé <strong class='text-color-blue'>interfaces de usuario modernas y responsivas</strong> utilizando frameworks como Angular y Vue.js, enfocadas en la experiencia del usuario y compatibilidad multiplataforma.",
         "3": "Consumí servicios API REST en proyectos Angular e implementé validaciones de formularios reactivos.",
         "4": "Colaboré en equipos ágiles siguiendo SCRUM; participé en reuniones diarias y revisiones de sprint."
       }
@@ -40,7 +40,7 @@
     },
     "perfil": {
       "title": "Mi Perfil",
-      "description": "Desarrollador Full-Stack con 5 años de experiencia en el desarrollo de aplicaciones web.<br><br>Especializado en frontend con JavaScript, TypeScript y Angular, con conocimientos básicos en Vue.js. Diseño interfaces responsivas y accesibles.<br><br>Experiencia en backend con Java y Spring Boot, enfocado en APIs REST y microservicios. Aplico principios SOLID y arquitecturas en capas y hexagonal. Manejo bases de datos relacionales como MySQL."
+      "description": "Desarrollador Full-Stack con +4 años de experiencia en el desarrollo de aplicaciones web.<br><br>Especializado en frontend con JavaScript, TypeScript y Angular, con conocimientos básicos en Vue.js. Diseño interfaces responsivas y accesibles.<br><br>Experiencia en backend con Java y Spring Boot, enfocado en APIs REST y microservicios. Aplico principios SOLID y arquitecturas en capas y hexagonal. Manejo bases de datos relacionales como MySQL."
     },
     "objective": {
       "title": "Mi Objetivo",

@@ -58,9 +58,14 @@
 
 .info_personal {
 
+  .perfil_container {
+    display: flex;
+  }
+
   .name {
-    color: #FFF;
-    font-size: 22px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
   }
 
   .position {
@@ -86,6 +91,13 @@
   
 }
 
+.img_perfil {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  display: none;
+}
+
 .social_container{
   padding-left: 6px;
   display: none;
@@ -105,14 +117,15 @@
     font-size: 1rem;
     font-weight: 600;
     color: white;
+    border: 1px solid #FFF;
     border-radius: 8px;
     cursor: pointer;
     overflow: hidden;
     transition: all 0.3s ease;
-    background-color: var(--blue-button-color);
+    background-color: var(--bg-button-color);
 
     &:hover {
-      background-color: var(--sky-blue-color);
+      background-color: var(--blue-button-color);
     }
   }
 
@@ -126,20 +139,29 @@
     }
   }
 
-  .available {
-    border: 2px solid rgb(137, 212, 137);
-    padding: 4px 10px;
-    border-radius: 20px;
-    color: #FFF;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all .5s;
-    font-size: 13px;
+}
 
-    &:hover {
-      background-color: rgba(137, 212, 137, .2);
-    }
+.available {
+  border: 2px solid rgb(137, 212, 137);
+  padding: 4px 10px;
+  border-radius: 20px;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: 13px;
+
+  &:hover {
+    background-color: rgba(137, 212, 137, .2);
   }
+}
+
+.available.perfil {
+  display: none;
+}
+
+.available.social {
+  display: block;
 }
 
 @keyframes gradientMove {
@@ -158,8 +180,7 @@
 
 @media (max-width: 992px) {
   .img_column{
-    margin-top: 60px;
-    margin-bottom: 60px;
+    display: none;
   }
   
   .social_container {
@@ -168,18 +189,32 @@
   }
   .info_personal {
     .name {
-      font-size: 18px;
+      font-size: 28px;
+      line-height: 40px;
+      margin-top: 10px;
     }
 
     .position {
-      font-size: 40px;
+      font-size: 30px;
       .color_primary{
-        font-size: 40px;
+        font-size: 30px;
       }
     }
 
     .description {
       font-size: 18px;
     }
+  }
+
+  .available.perfil {
+    display: block;
+  }
+
+  .available.social {
+    display: none;
+  }
+
+  .img_perfil {
+    display: block;
   }
 }
