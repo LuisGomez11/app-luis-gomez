@@ -29,8 +29,8 @@ export class SkillsComponent implements OnInit {
       urlImage: "assets/skills/angular.png"
     },
     {
-      name: "VueJS",
-      urlImage: "assets/skills/vue.png"
+      name: "Sass",
+      urlImage: "assets/skills/sass.png"
     },
     {
       name: "Bootstrap",

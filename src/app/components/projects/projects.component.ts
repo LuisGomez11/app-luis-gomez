@@ -33,6 +33,7 @@ export class ProjectsComponent implements OnInit, OnDestroy {
           technologies: [
             { name: "HTML", image: "assets/skills/html.png" },
             { name: "CSS", image: "assets/skills/css.png" },
+            { name: "Sass", image: "assets/skills/sass.png" },
             { name: "TypeScript", image: "assets/skills/ts.png" },
             { name: "Angular", image: "assets/skills/angular.png" },
             { name: "Angular Material", image: "assets/skills/material.png" },
