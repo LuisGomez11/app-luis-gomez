@@ -1,4 +1,8 @@
 {
+  "language": {
+    "es": "Spanish",
+    "en": "English"
+  },
   "navbar": {
     "home": "Home",
     "about": "About me",
@@ -51,12 +55,8 @@
         "description": "Enterprise strategic planning software designed to centralize the definition, tracking, and analysis of organizational objectives. Responsible for frontend development using Angular, with a focus on RESTful API integration, modular component-based architecture, and user experience-centered interface design."
       },
       {
-        "name": "Product and Invoice CRUD",
+        "name": "SB Microservice",
         "description": "Product and invoicing management API developed with Java and Spring Boot, following hexagonal architecture principles. Provides full CRUD operations for products and invoices in a modular, decoupled, and scalable structure."
-      },
-      {
-        "name": "Personal Website",
-        "description": "Responsive website designed to showcase my professional profile, web development knowledge, and experience with various technologies. It serves as a personal portfolio, highlighting projects, skills, and my journey as a Full Stack developer."
       },
       {
         "name": "People Agenda",

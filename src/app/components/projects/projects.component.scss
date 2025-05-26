@@ -5,9 +5,9 @@
 .project_individual_container{
   border-radius: 10px;
   overflow: hidden;
-  background-color: var(--turquoise-color);
+  background-color: var(--bg-card-transparent-color);
   min-height: 600px;
-  border: 4px solid var(--turquoise-color);
+  border: 4px solid var(--bg-card-transparent-color);
   position: relative;
   
   .img_project {
@@ -16,7 +16,7 @@
     object-fit: cover;
     mask-image: linear-gradient(#000 80%, transparent);
     border-radius: 10px;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 
     &:hover {
       transform: scale(1.1);
@@ -73,6 +73,7 @@
         padding: 5px 10px;
         border-radius: 10px;
         transition: all .5s;
+        cursor: default;
 
         .icon_image {
           width: 20px;
@@ -81,8 +82,8 @@
         }
 
         &:hover {
-          background-color: #FFF;
-          color: var(--turquoise-color);
+          background-color: #0000005d;
+          // color: var(--bg-card-transparent-color);
         }
       }
     }

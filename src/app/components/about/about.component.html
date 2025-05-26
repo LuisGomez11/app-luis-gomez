@@ -1,6 +1,9 @@
 <section class="about_container px-4">
   <div class="container mt-4">
-    <span class="subtitle">{{ 'about.title' | translate }}</span>
+    <span class="subtitle">
+      <i class="fa-solid fa-user small"></i>
+      {{ 'about.title' | translate }}
+    </span>
     <div class="row mt-5">
       <div class="col-12 col-lg-4 col-md-6 mb-3" *ngFor="let a of list_about">
         <article class="info_conteiner">

@@ -1,6 +1,9 @@
 <section class="projects_container px-4">
   <div class="container">
-    <span class="subtitle">{{ 'projects.title' | translate }}</span>
+    <span class="subtitle">
+      <i class="fa-solid fa-code small"></i>
+      {{ 'projects.title' | translate }}
+    </span>
     <div class="row mt-5 h-100">
       <div class="col-12 col-lg-6 p-2" *ngFor="let p of projects">
         <article class="project_individual_container h-100">

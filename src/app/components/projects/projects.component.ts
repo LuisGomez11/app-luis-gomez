@@ -53,23 +53,9 @@ export class ProjectsComponent implements OnInit, OnDestroy {
         {
           name: translatedProjects[2].name,
           git_project: true,
-          url_git_project: "https://github.com/LuisGomez11/app-luis-gomez",
-          img_project: "assets/projects/app_luis_gomez.png",
-          description: translatedProjects[2].description,
-          technologies: [
-            { name: "HTML", image: "assets/skills/html.png" },
-            { name: "CSS", image: "assets/skills/css.png" },
-            { name: "TypeScript", image: "assets/skills/ts.png" },
-            { name: "Angular", image: "assets/skills/angular.png" },
-            { name: "Bootstrap", image: "assets/skills/bootstrap.png" }
-          ]
-        },
-        {
-          name: translatedProjects[3].name,
-          git_project: true,
           url_git_project: "https://github.com/LuisGomez11/api-angular-spring",
           img_project: "assets/projects/api_angular_spring.png",
-          description: translatedProjects[3].description,
+          description: translatedProjects[2].description,
           technologies: [
             { name: "Angular", image: "assets/skills/angular.png" },
             { name: "TypeScript", image: "assets/skills/ts.png" },

@@ -1,4 +1,8 @@
 {
+  "language": {
+    "es": "Español",
+    "en": "Inglés"
+  },
   "navbar": {
     "home": "Inicio",
     "about": "Sobre mí",
@@ -51,12 +55,8 @@
         "description": "Software de planificación estratégica empresarial diseñado para centralizar la definición, seguimiento y análisis de objetivos organizacionales. Responsable del desarrollo frontend con Angular, enfocado en la integración de APIs RESTful, arquitectura modular basada en componentes y diseño de interfaces centradas en la experiencia de usuario."
       },
       {
-        "name": "CRUD Producto y Factura",
+        "name": "Microservicio SB",
         "description": "API de gestión de productos y facturación desarrollada con Java y Spring Boot, basada en arquitectura hexagonal. Expone operaciones CRUD completas para productos y facturas, con una estructura modular, desacoplada y escalable."
-      },
-      {
-        "name": "Página Web Personal",
-        "description": "Página web responsiva diseñada para presentar mi perfil profesional, conocimientos en desarrollo web y experiencia con diversas tecnologías. Funciona como portafolio personal, destacando proyectos, habilidades y trayectoria como desarrollador Full Stack."
       },
       {
         "name": "Agenda de Personas",

@@ -1,12 +1,18 @@
 .navbar_container {
   width: 100%;
-  background-color: var(--turquoise-color);
+  background-color: var(--bg-card-transparent-color);
   position: absolute;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+
+  &.scrolled {
+    background-color: var(--bg-card-color);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
 }
 
 .navbar {
@@ -54,14 +60,86 @@
   }
 }
 
+// .language-select {
+//   position: relative;
+//   display: inline-block;
+//   cursor: pointer;
+
+//   select {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 2rem;
+//     height: 2rem;
+//     opacity: 0;
+//     cursor: pointer;
+//   }
+
+//   .icon-label {
+//     font-size: 1.2rem;
+//     user-select: none;
+//     display: inline-block;
+//     line-height: 2rem;
+//     cursor: pointer;
+//   }
+// }
+
+.custom-dropdown {
+  position: relative;
+  z-index: 9999;
+  pointer-events: all;
+  user-select: none;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selected {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+.flag {
+  width: 20px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  left: -50px;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-menu li {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover,
+.dropdown-menu li:focus,
+.dropdown-menu li.selected {
+  background-color: #eee;
+  outline: none;
+}
+
 @media (max-width: 992px) {
-  // .links_container a {
-  //   display: none;
-  // }
   .navbar {
-    display: flex;
-    justify-content: center;
-    color: white;
     height: 65px;
   }
 
@@ -70,7 +148,8 @@
   }
 
   .links_container {
-    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
     font-size: 14px;
     gap: 20px;
     
@@ -81,5 +160,9 @@
 
   .language_container {
     gap: 2px;
+  }
+
+  .dropdown-menu { 
+    left: -90px;
   }
 }
