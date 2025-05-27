@@ -19,8 +19,8 @@ export class NavbarComponent implements OnInit {
   dropdownOpen = false;
 
   languages: Language[] = [
-    { code: 'es', label: 'language.es', flag: 'assets/spain.png' },
-    { code: 'en', label: 'language.en', flag: 'assets/usa.png' },
+    { code: 'es', label: 'language.es', flag: 'assets/flag/spain.webp' },
+    { code: 'en', label: 'language.en', flag: 'assets/flag/usa.webp' },
   ];
 
   get selectedLanguage(): Language {

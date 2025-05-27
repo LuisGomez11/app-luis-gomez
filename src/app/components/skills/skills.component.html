@@ -1,4 +1,4 @@
-<div class="skills_container px-4">
+<section class="skills_container px-4">
   <div class="container">
     <span class="subtitle">
       <i class="fa-solid fa-fire small"></i>
@@ -6,11 +6,11 @@
     </span>
     <div class="row mt-5">
       <div class="col-6 col-lg-2 col-md-4" *ngFor="let t of technologies">
-        <div class="skills_individual_container mb-3">
+        <article class="skills_individual_container mb-3">
           <img src="{{t.urlImage}}" alt="">
           <span>{{t.name}}</span>
-        </div>
+        </article>
       </div>
     </div>
   </div>
-</div>
+</section>
