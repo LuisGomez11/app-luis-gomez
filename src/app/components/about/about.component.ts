@@ -42,11 +42,6 @@ export class AboutComponent implements OnInit, OnDestroy {
           title: translations['about.perfil.title'],
           icon: "fa-solid fa-laptop-code",
           description: translations['about.perfil.description']
-        },
-        {
-          title: translations['about.objective.title'],
-          icon: "fa-solid fa-rocket",
-          description: translations['about.objective.description']
         }
       ];
     });

@@ -5,7 +5,15 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+
+  background-color: hsla(220.9090909090909, 30%, 14%, 1);
+  background-image: radial-gradient(circle at 0% 5%, hsla(225, 84%, 33%, 0.7) 3.1210986267166043%, transparent 40%), radial-gradient(circle at 23% 3%, hsla(210.4411764705882, 96%, 48%, 0.37) 3.1210986267166043%, transparent 76.4190383017679%), radial-gradient(circle at 100% 93%, hsla(186.61764705882354, 70%, 55%, 0.21) 3.1210986267166043%, transparent 45.38487571252063%), radial-gradient(circle at 96% 103%, hsla(120.44117647058823, 76%, 39%, 0.1) 3.1210986267166043%, transparent 50.0047517726123%), radial-gradient(circle at 80% 0%, hsla(158.82352941176472, 80%, 48%, 0.23) 3.1210986267166043%, transparent 24.819747276612727%);
+  background-blend-mode: normal, normal, normal, normal, normal;
+  min-height: 100vh;
+  background-attachment: fixed;
 }
 
 .subtitle {
@@ -16,6 +24,21 @@ body {
   font-size: 30px;
 }
 
+p {
+  strong {
+    color: #bde7fd;
+  }
+}
+
+.shadow_hover{
+  transition: box-shadow .5s !important;
+  &:hover{
+    box-shadow: 0px -1px 9px 1px rgba(255, 255, 255, 0.20) inset;
+    -webkit-box-shadow: 0px -1px 9px 1px rgba(255, 255, 255, 0.20) inset;
+    -moz-box-shadow: 0px -1px 9px 1px rgba(255, 255, 255, 0.20) inset;
+  }
+}
+
 :root {
   --blue-button-color:#0a94de5d;
   --blue-color: #0783c5;
@@ -24,10 +47,6 @@ body {
   --bg-card-color: #030c1694;
   --bg-button-color: #1142795e;
   --bg-card-transparent-color: #030c165d;
-}
-
-.text-color-blue {
-  color: #bde7fd;
 }
 
 @media (max-width: 760px) {

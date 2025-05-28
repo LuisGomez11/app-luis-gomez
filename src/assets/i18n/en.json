@@ -36,15 +36,11 @@
     "title": "About me",
     "personal": {
       "title": "Who am I?",
-      "description": "I am Luis Alberto Gómez Arteaga, a Systems Engineer graduated from Fundación Universitaria Tecnológico Comfenalco in Cartagena, Colombia.<br><br>I am passionate about developing efficient technological solutions, applying best programming practices, and always maintaining a user-centered approach."
+      "description": "I am Luis Alberto Gómez Arteaga, a Systems Engineer graduated from Fundación Universitaria Tecnológico Comfenalco in Cartagena, Colombia.<br><br>I am passionate about developing efficient technological solutions, applying best programming practices, and always maintaining a user-centered approach.<br><br>My objective is to continue expanding my knowledge of new technologies, strengthen the skills I have already acquired, and keep gaining experience as a developer in both backend and frontend."
     },
     "perfil": {
       "title": "My Profile",
       "description": "Full-Stack Developer with +4 years of experience building web applications.<br><br>Skilled in frontend development using JavaScript, TypeScript, and Angular, with basic knowledge of Vue.js. I design responsive, accessible interfaces.<br><br>Experienced in backend development with Java and Spring Boot, focusing on RESTful APIs and microservices. I apply SOLID principles and work with layered and hexagonal architectures. Proficient in relational databases like MySQL."
-    },
-    "objective": {
-      "title": "My Objective",
-      "description": "My objective is to continue expanding my knowledge of new technologies, strengthen the skills I have already acquired, and keep gaining experience as a developer in both backend and frontend."
     }
   },
   "projects": {
