@@ -25,10 +25,10 @@
       "company": "Zabud Technologies",
       "date": "Dec 2019 - Oct 2024",
       "description": {
-        "1": "I developed and maintained RESTful APIs using Java with Spring Boot across various entities, applying hexagonal architecture and unit testing with JUnit and Mockito.",
-        "2": "I implemented <strong class='text-color-blue'>modern, responsive user interfaces</strong> using frameworks such as Angular and Vue.js, focusing on user experience and cross-platform compatibility.",
-        "3": "I consumed REST API services in Angular projects and implemented reactive form validations.",
-        "4": "I collaborated in agile teams following SCRUM methodology, participating in daily stand-up meetings and sprint reviews."
+        "1": "Developed microservices in Java using Spring Boot, applying hexagonal architecture and maintaining test coverage above 80% with JUnit and Mockito.",
+        "2": "Optimized web interfaces using frameworks like Angular and Vue.js, focusing on enhancing user experience and implementing microservice consumption through dependency injection as a design pattern.",
+        "3": "Collaborated in agile teams following the SCRUM methodology, actively participating in daily stand-ups, sprint planning, and sprint reviews.",
+        "4": "Trained and onboarded new developers, facilitating their technical integration and adaptation to the work environment and project technologies."
       }
     }
   },
@@ -52,7 +52,7 @@
     "items": [
       {
         "name": "Aldea - Zabud",
-        "description": "Enterprise strategic planning software designed to centralize the definition, tracking, and analysis of organizational objectives. Responsible for frontend development using Angular, with a focus on RESTful API integration, modular component-based architecture, and user experience-centered interface design."
+        "description": "Business strategic planning software designed to centralize the definition, tracking, and analysis of organizational goals. Responsible for frontend development using Angular, focusing on microservices integration, modular component-based architecture, and user experience-centered interface design."
       },
       {
         "name": "SB Microservice",

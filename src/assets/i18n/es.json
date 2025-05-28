@@ -25,10 +25,10 @@
       "company": "Zabud Technologies",
       "date": "Dic 2019 - Oct 2024",
       "description": {
-        "1": "Desarrollé y mantuve APIs RESTful utilizando Java con Spring Boot en diferentes entidades, aplicando arquitectura hexagonal, pruebas unitariascon JUnit y Mockito.",
-        "2": "Implementé <strong class='text-color-blue'>interfaces de usuario modernas y responsivas</strong> utilizando frameworks como Angular y Vue.js, enfocadas en la experiencia del usuario y compatibilidad multiplataforma.",
-        "3": "Consumí servicios API REST en proyectos Angular e implementé validaciones de formularios reactivos.",
-        "4": "Colaboré en equipos ágiles siguiendo SCRUM; participé en reuniones diarias y revisiones de sprint."
+        "1": "Desarrollé microservicios en <strong class='text-color-blue'>Java</strong> con <strong class='text-color-blue'>Spring Boot</strong>, aplicando arquitectura hexagonal y manteniendo una cobertura de <strong class='text-color-blue'>pruebas superior al 80%</strong> mediante JUnit y Mockito.",
+        "2": "Optimizé <strong class='text-color-blue'>interfaces web</strong> con frameworks como <strong class='text-color-blue'>Angular</strong> y <strong class='text-color-blue'>Vue.js</strong>, enfocándome en mejorar la experiencia de usuario e implementando el consumo de microservicios mediante <strong class='text-color-blue'>inyección de dependencias</strong> como patrón de diseño.",
+        "3": "Colaboré en equipos ágiles bajo la metodología <strong class='text-color-blue'>SCRUM</strong>, participando activamente en reuniones diarias, planificaciones y revisiones de sprint.",
+        "4": "Capacité a nuevos desarrolladores, facilitando su <strong class='text-color-blue'>integración técnica</strong> y adaptación al entorno de trabajo y tecnologías del proyecto."
       }
     }
   },
@@ -52,7 +52,7 @@
     "items": [
       {
         "name": "Aldea - Zabud",
-        "description": "Software de planificación estratégica empresarial diseñado para centralizar la definición, seguimiento y análisis de objetivos organizacionales. Responsable del desarrollo frontend con Angular, enfocado en la integración de APIs RESTful, arquitectura modular basada en componentes y diseño de interfaces centradas en la experiencia de usuario."
+        "description": "Software de planificación estratégica empresarial diseñado para centralizar la definición, seguimiento y análisis de objetivos organizacionales. Responsable del desarrollo frontend con Angular, enfocado en la integración de microservicios, arquitectura modular basada en componentes y diseño de interfaces centradas en la experiencia de usuario."
       },
       {
         "name": "Microservicio SB",
