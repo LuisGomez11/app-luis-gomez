@@ -1,24 +1,24 @@
 <nav [class.scrolled]="isScrolled" class="navbar_container">
   <div class="container">
-    <div class="navbar">
+    <div class="navbar px-2">
       <div class="name_title">
         <span class="dev">Dev. </span><span>Luis Gómez</span>
       </div>
       <div class="links_container">
         <a href="#home">{{ 'navbar.home' | translate }}</a>
-        <a href="#experience">{{ 'navbar.experience' | translate }}</a>
-        <a href="#about">{{ 'navbar.about' | translate }}</a>
+        <a href="#projects">{{ 'navbar.projects' | translate }}</a>
+        <!-- <a href="#about">{{ 'navbar.about' | translate }}</a> -->
         <a href="#skills">{{ 'navbar.skills' | translate }}</a>
-        <a class="contact_link" href="#contact">{{ 'navbar.contact' | translate }}</a>
+        <a href="#contact">{{ 'navbar.contact' | translate }}</a>
         <div class="custom-dropdown" (click)="toggleDropdown($event)" (blur)="closeDropdown()" tabindex="0">
           <span class="selected">
             <i class="fa-solid fa-globe language_icon"></i>
-            <img [src]="selectedLanguage.flag" alt="{{ selectedLanguage.label }}" class="flag" />
+            <img [src]="selectedLanguage.flag" loading="lazy" alt="{{ selectedLanguage.label }}" class="flag" />
           </span>
         
           <ul *ngIf="dropdownOpen" class="dropdown-menu d-block" id="dropdown-menu">
             <li *ngFor="let lang of languages" (click)="selectLanguage(lang)">
-              <img [src]="lang.flag" alt="{{ lang.label }}" class="flag" />
+              <img [src]="lang.flag" loading="lazy" alt="{{ lang.label }}" class="flag" />
               {{ lang.label | translate }}
             </li>
           </ul>  </div>

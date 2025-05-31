@@ -13,27 +13,23 @@
   },
   "header":{
     "career": "Ingeniero de Sistemas y",
+    "position": "Desarrollador Full-Stack",
     "post": "Desarrollador Web",
-    "description": "+4 años de experiencia. <span class='text-color-blue'>Ingeniero de Sistemas y Desarrollador Web</span> de Cartagena, Colombia. Especializado en la experiencia de usuario.",
-    "cv": "Ver mi CV",
-    "available": "Disponible para trabajar"
+    "description": "Ingeniero de Sistemas y Desarrollador Web de Cartagena, Colombia. Apasionado por crear soluciones tecnológicas eficientes.",
+    "cv": "Descargar CV",
+    "available": "Disponible para trabajar",
+    "years": "Años de experiencia"
   },
   "experience": {
     "title": "Experiencia",
     "zabud":{
-      "position": "Desarrollador Full-Stack • ",
+      "position": "Desarrollador Full-Stack",
       "company": "Zabud Technologies",
-      "date": "Dic 2019 - Oct 2024",
-      "description": {
-        "1": "Desarrollé microservicios en <strong>Java</strong> con <strong>Spring Boot</strong>, aplicando arquitectura hexagonal y manteniendo una cobertura de <strong>pruebas superior al 80%</strong> mediante JUnit y Mockito.",
-        "2": "Optimizé <strong>interfaces web</strong> con frameworks como <strong>Angular</strong> y <strong>Vue.js</strong>, enfocándome en mejorar la experiencia de usuario e implementando el consumo de microservicios mediante <strong>inyección de dependencias</strong> como patrón de diseño.",
-        "3": "Colaboré en equipos ágiles bajo la metodología <strong>SCRUM</strong>, participando activamente en reuniones diarias, planificaciones y revisiones de sprint.",
-        "4": "Capacité a nuevos desarrolladores, facilitando su <strong>integración técnica</strong> y adaptación al entorno de trabajo y tecnologías del proyecto."
-      }
+      "date": "Dic 2019 - Oct 2024"
     }
   },
   "about":{
-    "title": "Sobre Mí",
+    "title": "Sobre mí",
     "personal": {
       "title": "¿Quien Soy?",
       "description": "Soy Luis Alberto Gómez Arteaga, Ingeniero de Sistemas egresado de la Fundación Universitaria Tecnológico Comfenalco de Cartagena, Colombia.<br><br>Me apasiona desarrollar soluciones tecnológicas eficientes, aplicando buenas prácticas de programación y manteniendo siempre un enfoque centrado en el usuario.<br><br>Mi objetivo es seguir expandiendo mis conocimientos en nuevas tecnologías, fortalecer los que ya he adquirido y continuar ganando experiencia como desarrollador tanto en el backend como en el frontend."
@@ -48,15 +44,15 @@
     "items": [
       {
         "name": "Aldea - Zabud",
-        "description": "Software de planificación estratégica empresarial diseñado para centralizar la definición, seguimiento y análisis de objetivos organizacionales. Responsable del desarrollo frontend con Angular, enfocado en la integración de microservicios, arquitectura modular basada en componentes y diseño de interfaces centradas en la experiencia de usuario."
+        "description": "Software de planificación estratégica empresarial."
       },
       {
         "name": "Microservicio SB",
-        "description": "API de gestión de productos y facturación desarrollada con Java y Spring Boot, basada en arquitectura hexagonal. Expone operaciones CRUD completas para productos y facturas, con una estructura modular, desacoplada y escalable."
+        "description": "API de gestión de productos y facturación."
       },
       {
         "name": "Agenda de Personas",
-        "description": "Aplicación Full Stack desarrollada durante mi formación inicial. Implementa operaciones CRUD sobre un listado de personas, con backend en Spring Boot y frontend en Angular, utilizando Bootstrap para diseño responsivo."
+        "description": "Aplicación Full Stack desarrollada durante mi formación inicial."
       }
     ]
   },

@@ -1,13 +1,20 @@
 <section class="experience_container px-4">
   <div class="container">
-    <span class="subtitle">
+    <span class="section_title">
       <i class="fa-solid fa-briefcase small"></i>
       {{ 'experience.title' | translate }}
     </span>
     <div class="row mt-5">
-      <div class="col-12 col-lg-6">
-        <article class="experience_individual_container py-4 px-5 shadow_hover">
-          <span class="title d-block">
+      <div class="col-12 col-lg-4 col-md-6">
+        <article class="experience_individual_container info_card border_card_blue shadow_hover">
+          <div class="d-flex flex-column justify-content-center align-items-center gap-4">
+            <span class="company d-block">{{ 'experience.zabud.company' | translate }}</span>
+            <div class="d-flex flex-column justify-content-center align-items-center gap-1">
+              <span class="position d-block">{{ 'experience.zabud.position' | translate }}</span>
+              <span class="date d-block">{{ 'experience.zabud.date' | translate }}</span>
+            </div>
+          </div>
+          <!-- <span class="title d-block">
             {{ 'experience.zabud.position' | translate }}
             <span class="company">{{ 'experience.zabud.company' | translate }}</span>
           </span>
@@ -25,7 +32,7 @@
             <li>
               <p [innerHTML]="'experience.zabud.description.4' | translate"></p>
             </li>
-          </ul>
+          </ul> -->
         </article>
       </div>
     </div>

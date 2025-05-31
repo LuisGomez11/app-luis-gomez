@@ -1,13 +1,13 @@
 <section class="skills_container px-4">
   <div class="container">
-    <span class="subtitle">
+    <span class="section_title">
       <i class="fa-solid fa-fire small"></i>
       {{ 'skills.title' | translate }}
     </span>
     <div class="row mt-5">
       <div class="col-6 col-lg-2 col-md-4" *ngFor="let t of technologies">
-        <article class="skills_individual_container mb-3">
-          <img src="{{t.urlImage}}" alt="">
+        <article class="skills_individual_container info_card mb-3">
+          <img src="{{t.urlImage}}" loading="lazy" alt="Icono de {{t.name}}">
           <span>{{t.name}}</span>
         </article>
       </div>

@@ -1,16 +1,16 @@
 <section class="projects_container px-4">
   <div class="container">
-    <span class="subtitle">
+    <span class="section_title">
       <i class="fa-solid fa-code small"></i>
       {{ 'projects.title' | translate }}
     </span>
     <div class="row mt-5 h-100">
       <div class="col-12 col-lg-6 p-2" *ngFor="let p of projects">
-        <article class="project_individual_container h-100 shadow_hover">
-          <img class="img_project w-100" src="{{p.img_project}}" alt="">
+        <article class="project_individual_container info_card border_card_blue h-100 shadow_hover">
+          <img class="img_project w-100" loading="lazy" src="{{p.img_project}}" alt="">
           <div class="info_project">
             <div class="info">
-              <div class="title_container d-flex align-items-center gap-3 mb-3">
+              <div class="title_container d-flex align-items-center gap-3 mb-2">
                 <span class="title">{{p.name}}</span>
                 <a *ngIf="p.git_project" href="{{p.url_git_project}}" target="_blank"
                   class="button_repo d-flex align-items-center gap-2">
@@ -18,12 +18,12 @@
                   <i class="fab fa-github"></i>
                 </a>
               </div>
-              <span class="description mb-3">{{p.description}}</span>
+              <p class="description text_opacity">{{p.description}}</p>
             </div>
             <footer>
               <div class="technologies_container d-flex gap-3">
                 <div class="technologies" *ngFor="let t of p.technologies">
-                  <img class="icon_image" src="{{t.image}}" alt="{{t.name}}">
+                  <img class="icon_image" loading="lazy" src="{{t.image}}" alt="{{t.name}}">
                   <span>{{t.name}}</span>
                 </div>
               </div>

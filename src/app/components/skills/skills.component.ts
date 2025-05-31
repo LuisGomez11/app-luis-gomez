@@ -10,51 +10,51 @@ export class SkillsComponent implements OnInit {
   technologies = [
     {
       name: "HTML",
-      urlImage: "assets/skills/html.png"
+      urlImage: "assets/skills/html.webp"
     },
     {
       name: "CSS",
-      urlImage: "assets/skills/css.png"
+      urlImage: "assets/skills/css.webp"
     },
     {
       name: "JavaScript",
-      urlImage: "assets/skills/js.png"
+      urlImage: "assets/skills/js.webp"
     },
     {
       name: "TypeScript",
-      urlImage: "assets/skills/ts.png"
+      urlImage: "assets/skills/ts.webp"
     },
     {
       name: "Angular",
-      urlImage: "assets/skills/angular.png"
+      urlImage: "assets/skills/angular.webp"
     },
     {
       name: "Sass",
-      urlImage: "assets/skills/sass.png"
+      urlImage: "assets/skills/sass.webp"
     },
     {
       name: "Bootstrap",
-      urlImage: "assets/skills/bootstrap.png"
+      urlImage: "assets/skills/bootstrap.webp"
     },
     {
-      name: "Angular Material",
+      name: "Material",
       urlImage: "assets/skills/material.png"
     },
     {
       name: "Java",
-      urlImage: "assets/skills/java.png"
+      urlImage: "assets/skills/java.webp"
     },
     {
       name: "Spring Boot",
-      urlImage: "assets/skills/spring.png"
+      urlImage: "assets/skills/spring.webp"
     },
     {
       name: "Git",
-      urlImage: "assets/skills/git.png"
+      urlImage: "assets/skills/git.webp"
     },
     {
       name: "MySQL",
-      urlImage: "assets/skills/mysql.png"
+      urlImage: "assets/skills/mysql.webp"
     }
   ]
 

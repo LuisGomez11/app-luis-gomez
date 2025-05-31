@@ -1,10 +1,48 @@
 <section class="header px-4">
   <div class="container">
-      <div class="row">
+    <div class="row">
+      <div class="col-12 col-lg-8 h-100 mb-4">
+        <div class="info_card perfil_container">
+          <div class="bg_gradient_perfil"></div>
+          <img class="img_perfil" src="../../../assets/background_perfil.webp">
+          <div class="info_perfil d-flex flex-column gap-1 p-4">
+            <span class="name">Luis Alberto Gómez Arteaga</span>
+            <span class="position">{{ 'header.position' | translate }}</span>
+            <footer class="social_container d-flex align-items-center mt-2 gap-3">
+              <a class="social_link d-flex align-items-center gap-2" (click)="downloadCV()">
+                <i class="fa-solid fa-file"></i>
+                <span>{{ 'header.cv' | translate }}</span>
+              </a>
+              <a class="social_link d-flex align-items-center gap-2" href="https://github.com/LuisGomez11" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a class="social_link d-flex align-items-center gap-2" href="https://www.linkedin.com/in/luisgomezdev" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 h-100">
+        <div class="d-flex flex-column h-100 gap-3">
+          <div class="info_card h-50 shadow_hover">
+            <h4>{{ 'about.title' | translate }}</h4>
+            <p class="text_opacity">{{ 'header.description' | translate }}</p>
+          </div>
+          <div class="info_card shadow_hover h-50 d-flex align-items-center justify-content-center flex-column">
+            <span class="number">+ 4</span>
+            <span class="text_opacity">{{ 'header.years' | translate }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- <div class="row">
         <div class="col-12 col-lg-6">
           <div class="info_personal">
             <div class="perfil_container d-flex align-items-center gap-3">
-              <img class="img_perfil rounded-circle" src="../../../assets/Foto_grado_cuadrada_perfil.jpg" alt="">
+              <img class="img_perfil rounded-circle" src="../../../assets/Foto_grado_cuadrada_perfil.jpg" loading="lazy" alt="">
               <a class="available perfil" href="https://www.linkedin.com/in/luisgomezdev" target="_blank">
                 {{ 'header.available' | translate }}
               </a>
@@ -28,11 +66,11 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 img_column">
+        <div class="col-12 col-lg-6 img_column d-flex justify-content-center">
           <div class="img_header">
-            <img src="../../../assets/Foto_grado_cuadrada.jpg" alt="">
+            <img src="../../../assets/Foto_grado_cuadrada.jpg" loading="lazy" alt="">
           </div>
         </div>
-      </div>
+      </div> -->
   </div>
 </section>

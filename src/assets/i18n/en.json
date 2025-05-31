@@ -14,22 +14,18 @@
   "header":{
     "career": "Systems Engineer and",
     "post": "Web Developer",
-    "description": "+4 years of experience. <span class='text-color-blue'>Systems Engineer and Web Developer</span> from Cartagena, Colombia. Specialized in user experience..",
-    "cv": "See my CV",
-    "available": "Available to work"
+    "position": "Full-Stack Developer",
+    "description": "Systems Engineer and Web Developer from Cartagena, Colombia. Passionate about creating efficient technological solutions.",
+    "cv": "Download CV",
+    "available": "Available to work",
+    "years": "Years of experience"
   },
   "experience": {
     "title": "Experience",
     "zabud":{
-      "position": "Full-Stack Developer • ",
+      "position": "Full-Stack Developer",
       "company": "Zabud Technologies",
-      "date": "Dec 2019 - Oct 2024",
-      "description": {
-        "1": "Developed microservices in Java using Spring Boot, applying hexagonal architecture and maintaining test coverage above 80% with JUnit and Mockito.",
-        "2": "Optimized web interfaces using frameworks like Angular and Vue.js, focusing on enhancing user experience and implementing microservice consumption through dependency injection as a design pattern.",
-        "3": "Collaborated in agile teams following the SCRUM methodology, actively participating in daily stand-ups, sprint planning, and sprint reviews.",
-        "4": "Trained and onboarded new developers, facilitating their technical integration and adaptation to the work environment and project technologies."
-      }
+      "date": "Dec 2019 - Oct 2024"
     }
   },
   "about":{
@@ -48,15 +44,15 @@
     "items": [
       {
         "name": "Aldea - Zabud",
-        "description": "Business strategic planning software designed to centralize the definition, tracking, and analysis of organizational goals. Responsible for frontend development using Angular, focusing on microservices integration, modular component-based architecture, and user experience-centered interface design."
+        "description": "Business strategic planning software."
       },
       {
         "name": "SB Microservice",
-        "description": "Product and invoicing management API developed with Java and Spring Boot, following hexagonal architecture principles. Provides full CRUD operations for products and invoices in a modular, decoupled, and scalable structure."
+        "description": "Product and invoicing management API."
       },
       {
         "name": "People Agenda",
-        "description": "Full Stack application developed during my initial training. Implements CRUD operations on a list of people, with a Spring Boot backend and an Angular frontend, using Bootstrap for responsive design."
+        "description": "Full Stack application developed during my initial training."
       }
     ]
   },

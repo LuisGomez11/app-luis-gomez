@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  seeCV() {
+  downloadCV() {
     const url = 'assets/CV_Luis_Gomez_2025.pdf';
     window.open(url, '_blank');
   }
